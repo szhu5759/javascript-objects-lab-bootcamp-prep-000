@@ -1,18 +1,9 @@
-var diet = {
-  Breakfast: "Mac and Cheese",
-  Breakfast2: "Soda",
-  Lunch: "Instant Noodles"
+const kittens = {
+  kitten1: ["Snow"],
+  kitten2: ["Twinkle Toes"],
+  kitten3: ["Spyder"],
+  kitten4: ["Meowsters"]
 }
 
-function deleteFromObjectByKey(object, key) {
-  delete object.key
-  return diet
-}
-
-var meals = diet.Breakfast
-console.log("meals results in: " + meals)
-console.log("diet.Breakfast will result in: " + diet.Breakfast)
-console.log("The function will result in: "  + deleteFromObjectByKey(meals))
-
-
-console.log(diet)
+kittens["kitten5"] = ["Honey"]
+delete kitten[kitten1]
